@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Percorso del file di input e di output
-input_csv = r"C:\Users\stefa\Desktop\cve_fixes.csv"  # Sostituisci con il nome del tuo file CSV
-output_csv = r"C:\Users\stefa\Desktop\cve_fixes_filtered.csv"
+input_csv = r"\cve_fixes.csv"  # Sostituisci con il nome del tuo file CSV
+output_csv = r"\cve_fixes_filtered.csv"
 
 # Leggere il file CSV
 df = pd.read_csv(input_csv)
